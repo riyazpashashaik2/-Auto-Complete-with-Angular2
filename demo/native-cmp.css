@@ -1,0 +1,33 @@
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 5rem;
+}
+
+.completer-wrapper {
+    border-radius: 25px;
+    background: lightgray;
+}
+
+:host >>> .match {
+  color: orangered;
+}
+
+:host >>> .my-input-class {
+  color: #2e405b;
+}
+
+.completer-limit /deep/ .completer-dropdown {
+  overflow-y: auto;
+  max-height: 20rem;
+}
